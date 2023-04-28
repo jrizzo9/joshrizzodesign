@@ -231,10 +231,6 @@ img {
   overflow: hidden;
 }
 
-.thing {
-  height: 50vh;
-}
-
 .contact-form {
   z-index: 3;
   min-height: 100vh;
@@ -247,17 +243,6 @@ img {
   display: flex;
   position: relative;
   overflow: hidden;
-}
-
-.contact-wrapper {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
 }
 
 .portfolio-item-screen {
@@ -277,21 +262,6 @@ img {
   display: flex;
 }
 
-.scroll-icon {
-  z-index: 1;
-  width: 52px;
-  color: #08a5a0;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
-}
-
 .social-link {
   width: 23px;
   color: #f1f0f0;
@@ -304,15 +274,6 @@ img {
 .connect {
   grid-column-gap: 13px;
   grid-row-gap: 13px;
-  display: flex;
-}
-
-.social, .icon-embed-xxsmall {
-  width: 1rem;
-  height: 1rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   display: flex;
 }
 
@@ -414,10 +375,6 @@ img {
   position: relative;
 }
 
-.image {
-  width: 80%;
-}
-
 .html-embed {
   z-index: 4;
   position: relative;
@@ -445,12 +402,6 @@ img {
   margin: 10px;
 }
 
-.navbar {
-  width: 100%;
-  background-color: #1e2a46;
-  position: fixed;
-}
-
 .nav-container {
   min-height: 39px;
   justify-content: space-between;
@@ -461,7 +412,11 @@ img {
 .nav-bar {
   z-index: 1;
   background-color: #1e2a46;
-  position: relative;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
 }
 
 @media screen and (max-width: 991px) {
@@ -542,7 +497,7 @@ img {
     padding-right: 20px;
   }
 
-  .nav-container, .container {
+  .nav-container {
     padding-right: 20px;
   }
 }
