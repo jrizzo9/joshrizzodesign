@@ -264,7 +264,7 @@ img {
 
 .social-link {
   width: 23px;
-  color: #f1f0f0;
+  color: #1e2a46;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -398,7 +398,7 @@ img {
 }
 
 .brand {
-  max-width: 90px;
+  max-width: 128px;
   margin: 10px;
 }
 
@@ -500,10 +500,6 @@ img {
   .nav-container {
     padding-right: 20px;
   }
-}
-
-#\31 .w-node-_56441aa5-4876-8c24-7ebb-431cc4e82ae6-2445e270, #\32 .w-node-_029e5be3-a6d1-73f2-3e15-d65a6046e988-2445e270, #\33 .w-node-f9e439af-bfcd-e5bc-ad52-98d3add02252-2445e270, #\34 .w-node-_48b4c06e-0fd9-ea25-db2c-4724238512a2-2445e270, #w-node-_869b57b1-a11f-894d-42f9-f34007871f7b-07871f77 {
-  grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
 
